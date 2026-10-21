@@ -103,10 +103,11 @@ exe (or have Python installed), then copy `SummonAI.dll` in beside the scripts.
 ## Using it
 
 1. Install the Base Mod first.
-2. Start the game and get into a level. The menu and loading screens are not
-   enough; the mod needs a local player and a loaded level.
-3. Run `inject_main.bat` (it asks for administrator rights), or run
-   `inject_summonai.exe` directly.
+2. Start the game and run `inject_main.bat` while the game is on the title
+   screen or the GPU driver warning page (it asks for administrator rights),
+   or run `inject_summonai.exe` directly. Injecting too early does nothing.
+3. Enter a map. The list is empty while you are in the menus; there are no
+   characters to summon until a level is loaded.
 4. The HUD appears in the top-left corner. The log `summonai_log.txt` is
    written next to the DLL and is overwritten each run.
 
